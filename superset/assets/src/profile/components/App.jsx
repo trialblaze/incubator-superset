@@ -48,7 +48,7 @@ export default function App(props) {
                 </div>
               }
             >
-              <Panel>
+              <Panel className="tb-noborder">
                 <Favorites user={props.user} />
               </Panel>
             </Tab>
@@ -60,7 +60,7 @@ export default function App(props) {
                 </div>
               }
             >
-              <Panel>
+              <Panel className="tb-noborder">
                 <CreatedContent user={props.user} />
               </Panel>
             </Tab>
@@ -72,7 +72,7 @@ export default function App(props) {
                 </div>
               }
             >
-              <Panel>
+              <Panel className="tb-noborder">
                 <RecentActivity user={props.user} />
               </Panel>
             </Tab>
@@ -84,7 +84,7 @@ export default function App(props) {
                 </div>
               }
             >
-              <Panel>
+              <Panel className="tb-noborder">
                 <Security user={props.user} />
               </Panel>
             </Tab>
