@@ -255,7 +255,7 @@
 @table-bg-active: @table-bg-hover;
 
 // ** Border color for table and cell borders.
-@table-border-color: #ddd;
+@table-border-color: @tb-border-color;
 
 // == Buttons
 //
@@ -269,7 +269,7 @@
 
 @btn-default-color: @bs-gray;
 @btn-default-bg: #fff;
-@btn-default-border: @bs-gray-light;
+@btn-default-border: @tb-border-color;
 
 @btn-success-color: @btn-primary-color;
 @btn-success-bg: @brand-success;
@@ -306,7 +306,7 @@
 // ** Text color for `<input>`s
 @input-color: @text-color;
 // ** `<input>` border color
-@input-border: #ccc;
+@input-border: @tb-border-color;
 
 // TODO: Rename `@input-border-radius` to `@input-border-radius-base` in v4
 // ** Default `.form-control` border radius
@@ -318,7 +318,7 @@
 @input-border-radius-small: @border-radius-small;
 
 // ** Border color for inputs on focus
-@input-border-focus: #66afe9;
+@input-border-focus: @brand-primary;
 
 // ** Placeholder text color
 @input-color-placeholder: @bs-gray-light;
@@ -357,11 +357,11 @@
 // ** Background for the dropdown menu.
 @dropdown-bg: #fff;
 // ** Dropdown menu `border-color`.
-@dropdown-border: rgba(0, 0, 0, 0.15);
+@dropdown-border: @tb-border-color;
 // ** Dropdown menu `border-color` **for IE8**.
-@dropdown-fallback-border: #ccc;
+@dropdown-fallback-border: @tb-border-color;
 // ** Divider color for between dropdown items.
-@dropdown-divider-bg: #e5e5e5;
+@dropdown-divider-bg: @tb-border-color;
 
 // ** Dropdown link text color.
 @dropdown-link-color: @gray-dark;
@@ -542,16 +542,16 @@
 @nav-disabled-link-hover-color: @bs-gray-light;
 
 // == Tabs
-@nav-tabs-border-color: #bbb;
+@nav-tabs-border-color: @tb-border-color;
 
 @nav-tabs-link-hover-border-color: @gray-lighter;
 
 @nav-tabs-active-link-hover-bg: @body-bg;
 @nav-tabs-active-link-hover-color: @bs-gray;
-@nav-tabs-active-link-hover-border-color: #bbb;
+@nav-tabs-active-link-hover-border-color: @tb-border-color;
 
-@nav-tabs-justified-link-border-color: #bbb;
-@nav-tabs-justified-active-link-border-color: @body-bg;
+@nav-tabs-justified-link-border-color: @tb-border-color;
+@nav-tabs-justified-active-link-border-color: @tb-border-color;
 
 // == Pills
 @nav-pills-border-radius: @border-radius-base;
@@ -564,19 +564,19 @@
 
 @pagination-color: @link-color;
 @pagination-bg: #fff;
-@pagination-border: #ddd;
+@pagination-border: @tb-border-color;
 
 @pagination-hover-color: @link-hover-color;
 @pagination-hover-bg: @gray-lighter;
-@pagination-hover-border: #ddd;
+@pagination-hover-border: @tb-border-color;
 
 @pagination-active-color: @bs-gray-light;
 @pagination-active-bg: #f5f5f5;
-@pagination-active-border: #ddd;
+@pagination-active-border: @tb-border-color;
 
 @pagination-disabled-color: @bs-gray-light;
 @pagination-disabled-bg: #fff;
-@pagination-disabled-border: #ddd;
+@pagination-disabled-border: @tb-border-color;
 
 // == Pager
 //
@@ -779,7 +779,7 @@
 // ** Background color on `.list-group-item`
 @list-group-bg: #fff;
 // ** `.list-group-item` border color
-@list-group-border: #ddd;
+@list-group-border: @tb-border-color;
 // ** List group border radius
 @list-group-border-radius: @border-radius-base;
 
@@ -816,7 +816,7 @@
 @panel-border-radius: @border-radius-base;
 
 // ** Border color for elements within panels
-@panel-inner-border: #ddd;
+@panel-inner-border: @tb-border-color;
 @panel-footer-bg: #f5f5f5;
 
 @panel-default-text: @gray-dark;
